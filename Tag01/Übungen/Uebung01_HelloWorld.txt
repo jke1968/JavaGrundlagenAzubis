@@ -1,0 +1,14 @@
+Übung 01
+========
+
+Schreiben Sie ein Java-Programm im neuen Projekt "Uebung01", das den Sourcecode des "HelloWorld"-Programms auf die Konsole ausgibt.
+
+Also folgende Ausgabe:
+
+package org.example;
+
+public class HelloWorld {
+	public static void main(String[] args) { 
+		System.out.println("Hello World !"); 
+	}
+}

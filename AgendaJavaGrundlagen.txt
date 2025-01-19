@@ -1,0 +1,14 @@
+Agenda Java Grundlagen
+======================
+
+01 Hello World - Umgang mit der IDE
+02 Basissyntax - Variablen, Schleifen, Verzweigungen, Methoden
+03 Arrays
+04 Klassen und Objekte
+05 Exceptions
+06 Beziehungen zwischen Klassen I  : Assoziation
+07 Beziehungen zwischen Klassen II : Vererbung
+08 Abstrakte Klassen und Interfaces
+
+
+

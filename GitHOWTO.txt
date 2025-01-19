@@ -1,0 +1,53 @@
+How to upload a local directory tree with source code files to GitHub.com
+=========================================================================
+  
+First of all, identify yourself to your local git installation
+
+   git config --global user.name "John Doe"
+   git config --global user.email johndoe@example.com
+
+Show all settings and their respective origins
+
+   git config --list --show-origin
+
+Assuming there is an account on GitHub.com
+
+1) Log in to GitHub.com and create an empty repository
+2) Clone the repo on your local machine 
+   
+   git clone https://github.com/jke1968/<repoName>
+
+3) copy all files from local directory into newly created directoy <repoName>
+4) cd into <repoName>
+5) create a .gitignore file including patterns for all files and folders that should not be uploaded
+6) create a snapshot of all the files in <repoName>
+
+   git add .
+
+7) and commit all changes
+
+   git commit -m "commit message"
+
+8) now push all changed and new files onto GitHub.com
+
+   git push origin main
+
+ 
+How to check if a local repository is up to date
+================================================
+
+1) Update the remote-tracking branches without changing the local branches
+
+   git fetch origin
+
+2) Determine differences between local and remote branch (behind, ahead, diverged)
+ 
+   git status
+
+3) if desired, update local branch to remote branch
+
+   git pull origin
+
+   -> all changes in the remote repository since the last local commit have now been applied to the local repository
+	
+

@@ -1,0 +1,15 @@
+Übung 08 Filezugriff und Vererbung
+==================================
+a)
+
+Ergänzen Sie das Programm "Artikelverwaltung" um 2 Menüpunkte
+
+3) Die Artikel in eine CSV-Datei speichern
+4) Die Artikel von einer CSV-Datei lesen
+
+b)
+
+Ergänzen Sie das Programm "Artikelverwaltung" um 2 Spezialisierungen der Klasse "Artikel"
+
+Die Klasse "Food", die ein zusätzliches Attribut "Verfallsdatum" hat und
+Die Klasse "NonFood", die ein zusätzliches Attribut "Garantie (in Monaten)" hat.

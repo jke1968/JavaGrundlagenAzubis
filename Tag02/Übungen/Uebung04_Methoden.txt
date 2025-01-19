@@ -1,0 +1,26 @@
+Übung 04 Methoden
+====================
+
+Schreiben Sie ein Java-Programm mit folgendem Auswahlmenü:
+
+Was wollen Sie tun ?
+
+1 - Unter- und Obergrenze eingeben
+2 - Alle Zahlen zwischen Unter- und Obergrenze ausgeben
+3 - Alle geraden Zahlen zwischen Unter- und Obergrenze ausgeben
+4 - Die Summe aller Zahlen zwischen Unter- und Obergrenze ausgeben
+5 - Die Summe der ungeraden Zahlen zwischen Unter- und Obergrenze ausgeben
+6 - Das Programm beenden
+
+Das Menü soll solange wiederholt werden, bis der Benutzer 6 eingibt
+
+Für jeden Menüpunkt (ausser 6) soll jeweils eine eigene Methode geschrieben werden. 
+
+int zahl = Integer.parseInt(scanner.nextLine());
+// pruefe ob zahl gerade ist (= ohne Rest durch 2 teilbar)
+// % ist der sog. "modulo operator"
+if ( zahl % 2  == 0 ) {
+   // zahl ist gerade
+} else {
+   // zahl ist ungerade
+}

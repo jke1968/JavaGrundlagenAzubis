@@ -1,0 +1,15 @@
+Übung 02 String-Variablen und Verzweigungen
+===========================================
+
+Schreiben Sie ein Programm, das einen Benutzernamen und ein Passwort von der Konsole einliest.
+
+Für folgende Kombinationen von Benutzername und Passwort soll die Meldung "Logged In" ausgegeben werden
+
+Benutzername: "Peter" Passwort="ABC123<+>"
+Benutzername: "Mary"  Passwort="PasswordThatIsLongerThanYourUsualPassword"
+
+Für alle anderen Kombinationen soll die Meldung "Wrong username or password" ausgegeben werden
+
+
+
+

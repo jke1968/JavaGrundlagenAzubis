@@ -1,0 +1,18 @@
+Übung 06 Klassen und Objekte
+============================
+
+Die Klasse Kreis hat ein Attribut radius und zwei Methoden:
+
+float berechneFlaeche()
+float berechneUmfang()
+
+Die Klasse Kreis soll einen Default(Standard)-Konstruktor (erzeugt einen Kreis mit radius=1) und einen Konstruktor mit einem Parameter (dem Radius) besitzen.
+
+1. Erstellen Sie eine Klasse mit einer main Methode
+
+2. Erstellen Sie eine Klasse Kreis nach obiger Spezifikation
+
+3. Erzeugen Sie einige Kreis-Objekte in der Main Methode, speichern Sie diese in einem Array und geben sie dann deren Fläche und Umfang aus und sowie die Summe der Flächen und der Umfänge. 
+
+4. Modifizieren Sie nun die Klasse Kreis so, dass jederzeit die Anzahl der bereits erzeugten Objekte vom Typ Kreis abgefragt werden kann.
+

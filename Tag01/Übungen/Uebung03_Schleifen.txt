@@ -1,0 +1,11 @@
+Übung 03 Schleifen
+==================
+
+Schreiben Sie ein Programm, das wie folgt funktioniert:
+
+Bitte Namen eingeben:
+Peter
+
+*******************
+* Willkomen Peter *
+*******************

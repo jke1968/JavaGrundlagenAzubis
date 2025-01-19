@@ -1,0 +1,20 @@
+Übung 07 - Assoziationen
+
+Schreiben Sie ein Java-Programm mit folgendem Menü:
+
+Was wollen Sie tun ?
+====================
+
+1) Einen Artikel erfassen
+2) Alle Artikel ausgeben
+3) Programm beenden
+
+Verwenden Sie dazu 2 Klassen: die Klasse "Artikel" und die Klasse "Artikelkatalog"
+
+Die Klasse "Artikel" hat die Attribute Nr, Name und Nettopreis
+
+Die Klasse "Artikel" hat ausserdem die Methode "berechneBruttopreis()"
+(d.h. der Bruttopreis existiert nicht als eigenes field/Attribut
+in der Klasse Artikel)
+
+Die Klasse "Artikelkatalog" hat/beinhaltet 0 oder mehrere Artikel 
